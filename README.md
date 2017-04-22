@@ -395,7 +395,7 @@ for idx,image in enumerate(test_images):
 
 Video model is quite different from a single image because we have a time series information, that is, the current image has strong connection with former images. So a 10-image previous-based median value were applied to normalize the `left_fit` and `right_fit` value, which were described in line 268-301 in `AdvancedLaneLines.py`.
 
-My model did pretty good job in both [project_video] and [challenge_video]. But some catastrophic failures happened at the end of [hard_challenge_video]:
+My model did pretty good job in both [project_video](https://github.com/huboqiang/CarND-AdvancedLaneDetection-P4/blob/master/projectResult.mp4) and [challenge_video](https://github.com/huboqiang/CarND-AdvancedLaneDetection-P4/blob/master/challengeResult.mp4). But some catastrophic failures happened at the end of [hard_challenge_video](https://github.com/huboqiang/CarND-AdvancedLaneDetection-P4/blob/master/hardchallengeResult.mp4):
 
 
 
